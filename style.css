@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container, .particle_container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.particle_container {
+  margin: 0px;
+}
+
+.particle {
+  height: 20px;
+  width: 20px;
+  margin: 50px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid black;
+  -webkit-animation: particles 4s ease-out 0.4s infinite alternate forwards;
+          animation: particles 4s ease-out 0.4s infinite alternate forwards;
+}
+
+.particle_container:first-of-type {
+  margin-top: 50px;
+}
+
+/*keyframes*/
+@-webkit-keyframes particles {
+  0% {
+    background-color: red;
+    margin: 50px;
+  }
+  5% {
+    background-color: red;
+    margin: 50px;
+  }
+  35% {
+    background-color: purple;
+  }
+  65% {
+    background-color: #6400c8;
+  }
+  95% {
+    background-color: blue;
+    margin: 0;
+  }
+  100% {
+    background-color: blue;
+    margin: 0;
+  }
+}
+@keyframes particles {
+  0% {
+    background-color: red;
+    margin: 50px;
+  }
+  5% {
+    background-color: red;
+    margin: 50px;
+  }
+  35% {
+    background-color: purple;
+  }
+  65% {
+    background-color: #6400c8;
+  }
+  95% {
+    background-color: blue;
+    margin: 0;
+  }
+  100% {
+    background-color: blue;
+    margin: 0;
+  }
+}
